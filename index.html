@@ -7,20 +7,24 @@
     <title>Masa en otros planetas</title>
 </head>
 <body>
-    <h1>¿Quieres saber cual es tu peso en otros planetas?</h1>
+    <h1>¿Quieres saber cual es tu peso en otros planetas y cuerpos celestes?</h1>
     <p>
-        <input type="numer" value="Proporciona tu peso en kg" id = "masaUsuario">
-        <input type="button" value="Enviar" id="enviar">
+        <input type="text" id = "masaUsuario" placeholder="Peso en kiligramos">
         <p id="resultado"></p>
     </p>
     <p>
         <h2>Selecciona un planeta de la lista</h2>
-        <input type="text" id = "planetaSeleccionado">
-        <input type="button" value="Enviar" id="enviar">
+        <select name="planeta" id ="planetaSeleccionado">
+            <option value="">--Selecciona un planeta</option>
+            <option value="La Tierra">Tierra</option>
+            <option value="Marte">Marte</option> 
+            <option value="Jupiter">Jupiter</option>
+          </select>
         <p id="resultado2"></p>
-        <h3>Tierra Marte Jupiter</h3>
+    </p>
+    <p>
+        <input type="button" value="Enviar" id="enviar">
     </p>
     <script src="index.js"></script>
-    
 </body>
 </html>
