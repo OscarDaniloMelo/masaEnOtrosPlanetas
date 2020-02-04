@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
     <title>Masa en otros planetas</title>
 </head>
+
 <body>
-    <h1>¿Quieres saber cual es tu peso en otros planetas y cuerpos celestes?</h1>
-    <p>
-        <input type="text" id = "masaUsuario" placeholder="Peso en kiligramos">
-        <p id="resultado"></p>
-    </p>
-    <p>
-        <h2>Selecciona un planeta de la lista</h2>
-        <select name="planeta" id ="planetaSeleccionado">
-            <option value="">--Selecciona un planeta</option>
-            <option value="La Tierra">Tierra</option>
-            <option value="Marte">Marte</option> 
-            <option value="Jupiter">Jupiter</option>
-          </select>
-        <p id="resultado2"></p>
-    </p>
-    <p>
-        <input type="button" value="Enviar" id="enviar">
-    </p>
+    <header class="header">header
+        <h1>¿Quieres saber cual es tu peso en otros planetas y cuerpos celestes?</h1>
+    </header>
+    <container class="container">container
+        <p>
+            <input type="text" id="masaUsuario" placeholder="Peso en kiligramos">
+            <p id="resultado"></p>
+        </p>
+        <p>
+            <h2>Selecciona un planeta de la lista</h2>
+            <select name="planeta" id="planetaSeleccionado">
+                <optgroup label="Planetas del sistema solar">
+                    <option value="">--Selecciona un planeta</option>
+                    <option value="Mercurio">Mercurio</option>
+                    <option value="Venus">Venus</option>
+                    <option value="La Tierra">Tierra</option>
+                    <option value="Marte">Marte</option>
+                    <option value="Jupiter">Jupiter</option>
+                    <option value="Saturno">Saturno</option>
+                    <option value="Urano">Urano</option>
+                    <option value="Neptuno">Neptuno</option>
+                </optgroup>
+                <optgroup label="Planetas enanos">
+                    <option value="Ceres">Ceres</option>
+                    <option value="Pluton">Pluton</option>
+                    <option value="Eris">Eris</option>
+                    <option value="Sedna">Sedna</option>
+                </optgroup>
+                <optgroup label="Otros cuerpos celestes">
+                    <option value="Luna">Luna</option>
+                    <option value="Io">Io</option>
+                    <option value="Europa">Europa</option>
+                    <option value="Titan">Tit&aacuten</option>
+                    <option value="Calisto">Calisto</option>
+                </optgroup>
+            </select>
+            <p id="resultado2"></p>
+        </p>
+        <p>
+            <input type="button" value="Enviar" id="enviar">
+        </p>
+    </container>
+    <footer class="footer">footer</footer>
     <script src="index.js"></script>
 </body>
+
 </html>

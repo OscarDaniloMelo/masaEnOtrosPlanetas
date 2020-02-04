@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin: 1px;
+}
+.header{
+    outline: 1px dashed blue;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.container{
+    outline: 1px dashed blue;
+}
+.footer{
+    outline: 1px dashed blue;
+    margin-top: auto;
+}
