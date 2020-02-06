@@ -12,11 +12,88 @@ body{
 }
 .header{
     outline: 1px dashed blue;
+    display: flex;
     justify-content: center;
     background-color: aquamarine;
+    height: 15rem;
+    align-items: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: darkorange;
+    justify-content: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: coral;
+    align-items: center;
 }
 .container{
     outline: 1px dashed blue;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.container option{
+    color: goldenrod;
+    font-size: inherit;
+    font-family: inherit;
+}
+.container optgroup{
+    color: chocolate;
+    font-size: inherit;
+    font-family: inherit;
+}
+.container select{
+    color: goldenrod;
+    font-size: inherit;
+    font-family: inherit;
+}
+#masaUsuario{
+    border-color: #4AB3ED;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px 20px 5px 25px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#resultado{
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resultado2{
+    color: goldenrod;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#planetaSeleccionado{
+    border-color: #4AB3ED;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px 20px 5px 25px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#enviar{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: black;
+    padding: 5px 0;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 10px;
 }
 .footer{
     outline: 1px dashed blue;

@@ -49,7 +49,7 @@ function planetaElegido() {
         case "Europa":
             var masaFinal = masa * g_europa / g_tierra
             break;
-        case "Luna":
+        case "la Luna":
             var masaFinal = masa * g_luna / g_tierra
             break;
         case "Io":
@@ -62,12 +62,12 @@ function planetaElegido() {
             var masaFinal = masa * g_calisto / g_tierra
             break;
     
-        case "La Tierra":
+        case "la Tierra":
             var masaFinal = masa
             break;
         }
-        resultado.innerHTML = "Tu peso es " + masa + " kilogramos"
-        resultado2.innerHTML = "tu peso en " + planeta + " es " + Math.floor(masaFinal) + " Kg" 
+        resultado.innerHTML = "Tu peso es: " + masa + " kilogramos"
+        resultado2.innerHTML = "Tu peso en " + planeta + " es: " + Math.floor(masaFinal) + " Kilogramos" 
     }
 }
 
